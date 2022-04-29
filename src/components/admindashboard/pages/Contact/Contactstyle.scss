@@ -1,0 +1,84 @@
+.ContactParnet {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.coversation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .chatHistory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 30px;
+    width: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    .converPic {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+    }
+    .converDet {
+      //margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+  .chatmessages {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    color: white;
+    .messagebod {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      max-width: 50%;
+      background-color: rgb(61, 138, 182);
+      // color: rgb(rgb(47, 170, 9), green, blue);
+      border: 0;
+      border-radius: 7px;
+      margin-top: 10px;
+      padding: 10px;
+      margin-right: 5px;
+    }
+    .own {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-left: auto;
+      max-width: 50%;
+      background-color: rgb(22, 32, 37);
+      border: 0;
+      border-radius: 7px;
+      margin-top: 10px;
+      padding: 10px;
+      margin-right: 5px;
+    }
+  }
+  .chatsender {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    .Messageinput {
+      border-radius: 10px;
+      resize: none;
+      padding: 10px;
+    }
+  }
+}

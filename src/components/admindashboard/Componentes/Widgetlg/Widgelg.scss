@@ -1,0 +1,77 @@
+.widgetLg {
+  flex: 1;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  @media only screen and (max-width: 400px) {
+    padding: 5px;
+  }
+}
+
+.widgetLgTitle {
+  font-size: clamp(1rem, 1.7vw, 4rem);
+  font-weight: 600;
+}
+
+.widgetLgTable {
+  width: 100%;
+
+  border-spacing: 20px;
+  @media only screen and (max-width: 400px) {
+    border-spacing: 0px;
+  }
+}
+.navLinkuser {
+  text-decoration: none;
+  font-size: clamp(1rem, 1.4vw, 2rem);
+  color: black;
+  &:hover {
+    transition: all 0.7s ease-in-out;
+
+    color: white;
+  }
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.widgetLgButton {
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+.widgetLgButton.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+  transition: all 0.7s ease-in-out;
+  &:hover {
+    transition: all 0.7s ease-in-out;
+    background-color: rgb(0, 68, 255);
+    color: white;
+  }
+}
+.widgetLgButton.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.widgetLgButton.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
+
+td,
+th {
+  border: 0;
+  text-align: center;
+}
+.tde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

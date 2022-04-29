@@ -1,0 +1,15 @@
+.ListOflists {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  .listtableCont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.homeWidgets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
